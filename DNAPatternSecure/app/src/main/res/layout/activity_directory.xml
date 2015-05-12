@@ -1,0 +1,141 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mypersonalapp.dnapatternsecure.Directory">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/text_SMSBlock"
+        android:text="SMS Blocker"
+        android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"/>
+    <Switch
+        android:id="@+id/switch_SMSBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/text_callBlock"
+            android:text="Call Blocker"
+            android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"/>
+        <Switch
+            android:id="@+id/switch_callBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/text_malWareDetector"
+            android:text="MalWare Detector"
+            android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"/>
+        <Switch
+            android:id="@+id/switch_malWareDetector"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/text_WIFISecurity"
+            android:text="WIFI Security"
+            android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"/>
+        <Switch
+            android:id="@+id/switch_WIFISecurity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/text_appMonitor"
+            android:text="Application Monitor"
+            android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"/>
+        <Switch
+            android:id="@+id/switch_appMonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_userPattern"
+        android:text="Build My DNA Pattern"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <Switch
+        android:id="@+id/switch_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/button_getRealTimeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Real Time Info"/>
+        </LinearLayout>
+</LinearLayout>
